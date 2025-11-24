@@ -129,15 +129,23 @@ Use any static hosting (Netlify, Vercel, Nginx, Apache, etc.)
 🔐 Authentication
 Method	Endpoint	Description
 POST	/api/auth/register	Register new user
+
 POST	/api/auth/login	Log in user
+
 GET	/api/auth/profile	Get user profile
+
 📅 Events
 Method	Endpoint	Description
 GET	/api/events	Get all events
+
 GET	/api/events/:id	Get event by ID
+
 POST	/api/events	Create a new event
+
 PUT	/api/events/:id	Update event
+
 DELETE	/api/events/:id	Delete event
+
 🔍 Troubleshooting
 CORS Issues
 
